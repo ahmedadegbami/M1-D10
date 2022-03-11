@@ -118,4 +118,13 @@ gethighersum(array1sum,array2sum)
 
 
 console.log("\n============================DOM================================")
+//31) Get the element with an id of "container" from the page
+let containerNode = document.getElementById("container")
 
+//32) Get every <td> element from the page
+
+let tdNode = document.getElementsByTagName("td")
+
+for (let i = 0; i < tdNode.length; i++) { 
+    console.log(tdNode[i].innerText)
+}
