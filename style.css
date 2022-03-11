@@ -1,0 +1,46 @@
+body {
+  display: table;
+  margin: auto;
+}
+table,
+th {
+  border: 3px solid black;
+  border-radius: 1ch;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid green;
+}
+
+tr {
+  outline: 2px dotted red;
+}
+
+hr {
+  width: 100%;
+  border: solid;
+  margin-left: 0%;
+}
+
+a {
+  display: block;
+  color: brown;
+}
+
+.border {
+  border: solid brown;
+}
+
+p {
+  margin: 50px;
+}
+
+.testChange {
+  font-size: 5px;
+  font-weight: 500;
+}
+
+.hidden {
+  visibility: hidden;
+}
